@@ -15,7 +15,7 @@ class hotel{
         int malam;
         int data();                 //method
         void cetak (string nama_hotel,int bayar);  //method with parameters
-        hotel() {
+        hotel() {                   //Constructor
             cout << "     _   _____________   ____________  "<< endl;
             cout << "    / | / / ____/  _/ | / / ____/ __ \ "<< endl;
             cout << "   /  |/ / / __ / //  |/ / __/ / /_/ / "<< endl;
