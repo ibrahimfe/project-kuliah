@@ -2,7 +2,6 @@
 
 using namespace std;
 
-
 int main() {
     string name, final2;
     int huruf, final;
