@@ -1,12 +1,10 @@
-Sure, here's a sample `README.md` file for your Django project:
-
 # Assignment for Bahasa Pemrograman II Class
 
 This Django project is an assignment for the Bahasa Pemrograman II class. It is designed to demonstrate your understanding of web application development using Django.
 
 ## Project Description
 
-The project is a web application that [describe your project here, what it does, its features, etc.]
+The project is a web application that implement a to-do list kind of thing
 
 ## Installation
 
@@ -38,11 +36,18 @@ The project is a web application that [describe your project here, what it does,
 
 ## Usage
 
-[Provide instructions on how to use your application, such as how to create an account, how to log in, how to use its features, etc.]
+You can create an super user by typing this code in your command prompt
+
+    ``` bash
+    $ python manage.py createsuperuser
+    ```
+
+And you can log in your super user account by visiting `http://localhost:8000/admin/` to view the django administration pages
 
 ## Contributing
 
-[Explain how others can contribute to your project, such as by opening issues, submitting pull requests, etc.]
+
+You can contribute to this project by opening issues, submitting a pull requests
 
 ## Credits
 
