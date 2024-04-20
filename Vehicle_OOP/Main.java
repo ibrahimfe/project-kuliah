@@ -43,5 +43,7 @@ public class Main {
         System.out.println("Berat Mobil : " + mobilMewah.getWeight() + "kg");
         System.out.println("Apakah Termasuk Mobil Mewah ? " + mobilMewah.isLuxury());
         mobilMewah.stop();
+
+        System.out.println("banyaknya kendaraan : " + Vehicle.getTotalNumVehicle());
     }
 }
